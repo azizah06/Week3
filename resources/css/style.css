@@ -1,0 +1,71 @@
+*{
+    padding: 0;
+    margin: 0;
+  }
+  body {
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .navbar-nav .nav-item {
+    color: white;
+  }
+
+  .navbar .btn-outline-white {
+    border-radius: 50px;
+    font-weight: medium;
+    color: white;
+    border-color: white;
+    padding: 0.5rem 1rem;
+  }
+
+  /* Ketika tombol dihover */
+  .btn-outline-white:hover {
+    background-color: white; /* Latar belakang putih */
+    color: purple; /* Teks ungu */
+  }
+
+
+  .konten-card {
+    background-color: white;
+  }
+
+  .konten-atas h1{
+    font-size: 50px;
+  }
+
+  .konten-atas p {
+    font-size: 17px;
+  }
+
+  .konten-card .card img{
+    width: 225px;
+  }
+
+  .footer{
+    background-color: rgb(29, 29, 29);
+  }
+  .footer .tautan-1{
+  text-decoration: none;
+  }
+
+  .left-footer a{
+    text-decoration: none;
+    color: white;
+  }
+
+  .left-footer .ikon{
+    border: solid 1px;
+    padding: 5px;
+    border-radius: 20px;
+  }
+
+  .ikon-ig{
+    padding: 10px;
+    border: solid 1px;
+    border-radius: 20px;
+  }
